@@ -7,9 +7,12 @@ pool:
 steps:
 - powershell: |
     Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
-    choco apikey --key $env:CHOCO_KEY --source https://push.chocolatey.org/
     choco pack
-    $pkgs = Get-ChildItem -Path *.nupkg
-    choco push $pkgs[0].Name --source https://push.chocolatey.org/
+- task:
+    posershell: |
+      choco apikey --key $env:CHOCO_KEY --source https://push.chocolatey.org/
+      $pkgs = Get-ChildItem -Path *.nupkg
+      choco push $pkgs[0].Name --source https://push.chocolatey.org/
+    condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
   env:
     CHOCO_KEY: $(chocoKey)
