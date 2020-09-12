@@ -5,27 +5,27 @@
   <metadata>
     <!-- == PACKAGE SPECIFIC SECTION == -->
     <id>runlet</id>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <packageSourceUrl>https://github.com/runletapp/chocolatey</packageSourceUrl>
     <owners>Runlet</owners>
     <!-- ============================== -->
 
     <!-- == SOFTWARE SPECIFIC SECTION == -->
     <!-- This section is about the software itself -->
-    <title>runlet (Install)</title>
+    <title>Runlet</title>
     <authors>Runlet</authors>
     <!-- projectUrl is required for the community feed -->
     <projectUrl>https://runlet.app</projectUrl>
-    <iconUrl>https://github.com/runletapp/runletapp.github.io/raw/master/icons/icon-72x72.png</iconUrl>
+    <iconUrl>https://avatars3.githubusercontent.com/u/46654969?s=200</iconUrl>
     <!-- <copyright>Year Software Vendor</copyright> -->
     <!-- If there is a license Url available, it is required for the community feed -->
     <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
-    <docsUrl>https://runlet.gitbook.io/</docsUrl>
+    <docsUrl>https://runlet.app/docs</docsUrl>
     <bugTrackerUrl>https://github.com/runletapp/runlet/issues</bugTrackerUrl>
     <tags>runlet automation</tags>
-    <summary>A cloud-based job manager that integrates your devices.</summary>
-    <description>A cloud-based job manager that integrates your devices.</description>
+    <summary>A cloud-based job manager that integrates your devices</summary>
+    <description>A cloud-based job manager that integrates your devices</description>
     <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
     <!-- =============================== -->
 
