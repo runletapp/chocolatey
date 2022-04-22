@@ -5,7 +5,7 @@
   <metadata>
     <!-- == PACKAGE SPECIFIC SECTION == -->
     <id>runlet</id>
-    <version>1.0.6</version>
+    <version>1.0.7</version>
     <packageSourceUrl>https://github.com/runletapp/chocolatey</packageSourceUrl>
     <owners>Runlet</owners>
     <!-- ============================== -->
